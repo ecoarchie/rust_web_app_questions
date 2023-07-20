@@ -1,3 +1,7 @@
+#![warn(
+    clippy::all,
+)]
+
 use warp::{http::Method, Filter};
 
 mod error;
