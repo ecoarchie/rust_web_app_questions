@@ -1,0 +1,61 @@
+2023-08-09T14:18:27.415326500+03:00 - This is an error!
+2023-08-09T14:18:27.415711100+03:00 - This is info
+2023-08-09T14:18:27.416099500+03:00 - This is a warning!
+2023-08-09T14:18:27.418625800+03:00 - Server::run; addr=127.0.0.1:3030
+2023-08-09T14:18:27.418975100+03:00 - listening on http://127.0.0.1:3030
+2023-08-09T14:20:46.525617700+03:00 - parsed 15 headers
+2023-08-09T14:20:46.525758300+03:00 - incoming body is empty
+2023-08-09T14:20:46.525971500+03:00 - route was called without a query string, defaulting to empty
+2023-08-09T14:20:46.526327700+03:00 - flushed 320 bytes
+2023-08-09T14:20:58.229046800+03:00 - parsed 15 headers
+2023-08-09T14:20:58.229280600+03:00 - incoming body is empty
+2023-08-09T14:20:58.229460900+03:00 - route was called without a query string, defaulting to empty
+2023-08-09T14:20:58.231773900+03:00 - flushed 320 bytes
+2023-08-09T14:21:56.391689800+03:00 - read eof
+2023-08-09T14:21:56.392185+03:00 - read eof
+2023-08-09T14:25:46.701679100+03:00 - This is an error!
+2023-08-09T14:25:46.701916500+03:00 - This is info
+2023-08-09T14:25:46.702080300+03:00 - This is a warning!
+2023-08-09T14:25:46.704341100+03:00 - Server::run; addr=127.0.0.1:3030
+2023-08-09T14:25:46.704611900+03:00 - listening on http://127.0.0.1:3030
+2023-08-09T14:29:17.507384500+03:00 - This is an error!
+2023-08-09T14:29:17.507704900+03:00 - This is info
+2023-08-09T14:29:17.507960+03:00 - This is a warning!
+2023-08-09T14:29:17.510607100+03:00 - Server::run; addr=127.0.0.1:3030
+2023-08-09T14:29:17.511008900+03:00 - listening on http://127.0.0.1:3030
+2023-08-09T14:31:46.450742600+03:00 - This is an error!
+2023-08-09T14:31:46.450902500+03:00 - This is info
+2023-08-09T14:31:46.450976700+03:00 - This is a warning!
+2023-08-09T14:31:46.452874400+03:00 - Server::run; addr=127.0.0.1:3030
+2023-08-09T14:31:46.452970500+03:00 - listening on http://127.0.0.1:3030
+{"time":"2023-08-09T14:36:24.270542900+03:00","message":"This is an error!","module_path":"web_dev_project","file":"src\\main.rs","line":14,"level":"ERROR","target":"web_dev_project","thread":"main","thread_id":30356,"mdc":{}}
+{"time":"2023-08-09T14:36:24.270704900+03:00","message":"This is info","module_path":"web_dev_project","file":"src\\main.rs","line":15,"level":"INFO","target":"web_dev_project","thread":"main","thread_id":30356,"mdc":{}}
+{"time":"2023-08-09T14:36:24.270786+03:00","message":"This is a warning!","module_path":"web_dev_project","file":"src\\main.rs","line":16,"level":"WARN","target":"web_dev_project","thread":"main","thread_id":30356,"mdc":{}}
+{"time":"2023-08-09T14:36:24.272089200+03:00","message":"Server::run; addr=127.0.0.1:3030","module_path":"warp::server","file":"C:\\Users\\ecoar\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\warp-0.3.5\\src\\server.rs","line":133,"level":"INFO","target":"warp::server","thread":"main","thread_id":30356,"mdc":{}}
+{"time":"2023-08-09T14:36:24.272207400+03:00","message":"listening on http://127.0.0.1:3030","module_path":"warp::server","file":"C:\\Users\\ecoar\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\warp-0.3.5\\src\\server.rs","line":134,"level":"INFO","target":"warp::server","thread":"main","thread_id":30356,"mdc":{}}
+{"time":"2023-08-09T14:40:19.704416900+03:00","message":"parsed 7 headers","module_path":"hyper::proto::h1::io","file":"C:\\Users\\ecoar\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\hyper-0.14.27\\src\\proto\\h1\\io.rs","line":207,"level":"DEBUG","target":"hyper::proto::h1::io","thread":"tokio-runtime-worker","thread_id":18172,"mdc":{}}
+{"time":"2023-08-09T14:40:19.704604200+03:00","message":"incoming body is empty","module_path":"hyper::proto::h1::conn","file":"C:\\Users\\ecoar\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\hyper-0.14.27\\src\\proto\\h1\\conn.rs","line":222,"level":"DEBUG","target":"hyper::proto::h1::conn","thread":"tokio-runtime-worker","thread_id":18172,"mdc":{}}
+{"time":"2023-08-09T14:40:19.704801700+03:00","message":"route was called without a query string, defaulting to empty","module_path":"warp::filters::query","file":"C:\\Users\\ecoar\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\warp-0.3.5\\src\\filters\\query.rs","line":69,"level":"DEBUG","target":"warp::filters::query","thread":"tokio-runtime-worker","thread_id":18172,"mdc":{}}
+{"time":"2023-08-09T14:40:19.707389100+03:00","message":"flushed 320 bytes","module_path":"hyper::proto::h1::io","file":"C:\\Users\\ecoar\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\hyper-0.14.27\\src\\proto\\h1\\io.rs","line":320,"level":"DEBUG","target":"hyper::proto::h1::io","thread":"tokio-runtime-worker","thread_id":18172,"mdc":{}}
+{"time":"2023-08-09T14:41:33.382840100+03:00","message":"This is an error!","module_path":"web_dev_project","file":"src\\main.rs","line":14,"level":"ERROR","target":"web_dev_project","thread":"main","thread_id":18556,"mdc":{}}
+{"time":"2023-08-09T14:41:33.383083600+03:00","message":"This is info","module_path":"web_dev_project","file":"src\\main.rs","line":15,"level":"INFO","target":"web_dev_project","thread":"main","thread_id":18556,"mdc":{}}
+{"time":"2023-08-09T14:41:33.383197200+03:00","message":"This is a warning!","module_path":"web_dev_project","file":"src\\main.rs","line":16,"level":"WARN","target":"web_dev_project","thread":"main","thread_id":18556,"mdc":{}}
+{"time":"2023-08-09T14:41:33.386188300+03:00","message":"Server::run; addr=127.0.0.1:3030","module_path":"warp::server","file":"C:\\Users\\ecoar\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\warp-0.3.5\\src\\server.rs","line":133,"level":"INFO","target":"warp::server","thread":"main","thread_id":18556,"mdc":{}}
+{"time":"2023-08-09T14:41:33.386389400+03:00","message":"listening on http://127.0.0.1:3030","module_path":"warp::server","file":"C:\\Users\\ecoar\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\warp-0.3.5\\src\\server.rs","line":134,"level":"INFO","target":"warp::server","thread":"main","thread_id":18556,"mdc":{}}
+{"time":"2023-08-09T14:41:58.670573600+03:00","message":"GET /questions 200 OK 249.7µs from 127.0.0.1:63329 with {\"user-agent\": \"PostmanRuntime/7.32.2\", \"accept\": \"*/*\", \"cache-control\": \"no-cache\", \"postman-token\": \"6eaf3716-4f47-46c3-a38d-dd75ac821c1d\", \"host\": \"127.0.0.1:3030\", \"accept-encoding\": \"gzip, deflate, br\", \"connection\": \"keep-alive\"}\n","module_path":"web_dev_project","file":"src\\main.rs","line":19,"level":"INFO","target":"web_dev_project","thread":"tokio-runtime-worker","thread_id":14360,"mdc":{}}
+{"time":"2023-08-09T14:47:32.476980200+03:00","message":"This is an error!","module_path":"web_dev_project","file":"src\\main.rs","line":14,"level":"ERROR","target":"web_dev_project","thread":"main","thread_id":28752,"mdc":{}}
+{"time":"2023-08-09T14:47:32.477164900+03:00","message":"This is info","module_path":"web_dev_project","file":"src\\main.rs","line":15,"level":"INFO","target":"web_dev_project","thread":"main","thread_id":28752,"mdc":{}}
+{"time":"2023-08-09T14:47:32.477248700+03:00","message":"This is a warning!","module_path":"web_dev_project","file":"src\\main.rs","line":16,"level":"WARN","target":"web_dev_project","thread":"main","thread_id":28752,"mdc":{}}
+{"time":"2023-08-09T14:47:32.479460100+03:00","message":"Server::run; addr=127.0.0.1:3030","module_path":"warp::server","file":"C:\\Users\\ecoar\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\warp-0.3.5\\src\\server.rs","line":133,"level":"INFO","target":"warp::server","thread":"main","thread_id":28752,"mdc":{}}
+{"time":"2023-08-09T14:47:32.479647700+03:00","message":"listening on http://127.0.0.1:3030","module_path":"warp::server","file":"C:\\Users\\ecoar\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\warp-0.3.5\\src\\server.rs","line":134,"level":"INFO","target":"warp::server","thread":"main","thread_id":28752,"mdc":{}}
+{"time":"2023-08-09T14:47:38.778397300+03:00","message":"Start quering questions","module_path":"web_dev_project::routes::question","file":"src\\routes\\question.rs","line":18,"level":"INFO","target":"web_dev_project::routes::question","thread":"tokio-runtime-worker","thread_id":18584,"mdc":{}}
+{"time":"2023-08-09T14:47:38.778558+03:00","message":"No pagination used","module_path":"web_dev_project::routes::question","file":"src\\routes\\question.rs","line":29,"level":"INFO","target":"web_dev_project::routes::question","thread":"tokio-runtime-worker","thread_id":18584,"mdc":{}}
+{"time":"2023-08-09T14:47:38.778846400+03:00","message":"GET /questions 200 OK 674.1µs from 127.0.0.1:63443 with {\"user-agent\": \"PostmanRuntime/7.32.2\", \"accept\": \"*/*\", \"cache-control\": \"no-cache\", \"postman-token\": \"06bd7eaa-ca59-4f07-aeef-9302eb1e039f\", \"host\": \"127.0.0.1:3030\", \"accept-encoding\": \"gzip, deflate, br\", \"connection\": \"keep-alive\"}\n","module_path":"web_dev_project","file":"src\\main.rs","line":19,"level":"INFO","target":"web_dev_project","thread":"tokio-runtime-worker","thread_id":18584,"mdc":{}}
+{"time":"2023-08-09T14:52:53.235726300+03:00","message":"This is an error!","module_path":"web_dev_project","file":"src\\main.rs","line":14,"level":"ERROR","target":"web_dev_project","thread":"main","thread_id":4832,"mdc":{}}
+{"time":"2023-08-09T14:52:53.235986100+03:00","message":"This is info","module_path":"web_dev_project","file":"src\\main.rs","line":15,"level":"INFO","target":"web_dev_project","thread":"main","thread_id":4832,"mdc":{}}
+{"time":"2023-08-09T14:52:53.236171100+03:00","message":"This is a warning!","module_path":"web_dev_project","file":"src\\main.rs","line":16,"level":"WARN","target":"web_dev_project","thread":"main","thread_id":4832,"mdc":{}}
+{"time":"2023-08-09T14:52:53.238566700+03:00","message":"Server::run; addr=127.0.0.1:3030","module_path":"warp::server","file":"C:\\Users\\ecoar\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\warp-0.3.5\\src\\server.rs","line":133,"level":"INFO","target":"warp::server","thread":"main","thread_id":4832,"mdc":{}}
+{"time":"2023-08-09T14:52:53.238768+03:00","message":"listening on http://127.0.0.1:3030","module_path":"warp::server","file":"C:\\Users\\ecoar\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\warp-0.3.5\\src\\server.rs","line":134,"level":"INFO","target":"warp::server","thread":"main","thread_id":4832,"mdc":{}}
+{"time":"2023-08-09T14:52:57.796894100+03:00","message":"618f9a2b-1349-4442-8ac2-a0cc2f17585c Start quering questions","module_path":"web_dev_project::routes::question","file":"src\\routes\\question.rs","line":19,"level":"INFO","target":"web_dev_project::routes::question","thread":"tokio-runtime-worker","thread_id":22420,"mdc":{}}
+{"time":"2023-08-09T14:52:57.797061600+03:00","message":"618f9a2b-1349-4442-8ac2-a0cc2f17585c No pagination used","module_path":"web_dev_project::routes::question","file":"src\\routes\\question.rs","line":30,"level":"INFO","target":"web_dev_project::routes::question","thread":"tokio-runtime-worker","thread_id":22420,"mdc":{}}
+{"time":"2023-08-09T14:52:57.797309300+03:00","message":"GET /questions 200 OK 736µs from 127.0.0.1:63579 with {\"user-agent\": \"PostmanRuntime/7.32.2\", \"accept\": \"*/*\", \"cache-control\": \"no-cache\", \"postman-token\": \"708bff74-52b0-458d-8f27-398bf7ff7ba3\", \"host\": \"127.0.0.1:3030\", \"accept-encoding\": \"gzip, deflate, br\", \"connection\": \"keep-alive\"}\n","module_path":"web_dev_project","file":"src\\main.rs","line":19,"level":"INFO","target":"web_dev_project","thread":"tokio-runtime-worker","thread_id":22420,"mdc":{}}

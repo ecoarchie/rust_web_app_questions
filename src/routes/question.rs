@@ -14,17 +14,20 @@ use crate::{
 pub async fn get_questions(
     params: HashMap<String, String>,
     store: Store,
+    id: String
 ) -> Result<impl Reply, Rejection> {
+    log::info!("{} Start quering questions", id);
     let questions: Vec<Question> = store.questions.read().await.values().cloned().collect();
     if !params.is_empty() {
         let pagination = extract_pagination(params)?;
+        log::info!("{} Pagination set {:?}", id, &pagination);
         if pagination.end > questions.len() {
             return Err(warp::reject::custom(error::Error::EndParameterOutOfBounds));
         }
         let res = &questions[pagination.start..pagination.end];
         Ok(warp::reply::json(&res))
     } else {
-        println!("{:?}", questions);
+        log::info!("{} No pagination used", id);
         Ok(warp::reply::json(&questions))
     }
 }

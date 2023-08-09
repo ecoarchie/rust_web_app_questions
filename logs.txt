@@ -1,0 +1,8 @@
+    Finished dev [unoptimized + debuginfo] target(s) in 0.14s
+     Running `target\debug\web_dev_project.exe`
+[2023-08-09T11:11:16Z ERROR web_dev_project] This is an error!
+[2023-08-09T11:11:16Z INFO  web_dev_project] This is info
+[2023-08-09T11:11:16Z WARN  web_dev_project] This is a warning!
+[2023-08-09T11:11:16Z INFO  warp::server] Server::run; addr=127.0.0.1:3030
+[2023-08-09T11:11:16Z INFO  warp::server] listening on http://127.0.0.1:3030
+error: process didn't exit successfully: `target\debug\web_dev_project.exe` (exit code: 0xc000013a, STATUS_CONTROL_C_EXIT)
